@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'TitleFont';
-  src: url('/ConviteDigital/Bootstrap/fonts/title.woff2') format('woff2'),
-       url('/ConviteDigital/Bootstrap/fonts/title.woff') format('woff'),
-       url('/ConviteDigital/Bootstrap/fonts/title.ttf') format('truetype');
+  src: url('/Bootstrap/fonts/TheBlacklist.woff2') format('woff2'),
+       url('/Bootstrap/fonts/TheBlacklist.woff') format('woff'),
+       url('/Bootstrap/fonts/TheBlacklist.ttf') format('truetype');
 }
 
 .customFont{
 	font-family:TitleFont;
 	font-weight:bolder;
-	color:#EA85FF;
+	color:#BA3962;
 	font-size:40px;
-	text-shadow:-3px 0 #A65EB5, 0 3px #A65EB5, 3px 0 #A65EB5, 0 -3px #A65EB5
+	text-shadow:-3px 0 #4F182A, 0 3px #4F182A, 3px 0 #4F182A, 0 -3px #4F182A
 }
 
 .customFontTitle{
 	font-family:TitleFont;
 	font-weight:bolder;
-	color:#EA85FF;
+	color:#BA3962;
 	font-size:50px;
-	text-shadow:-3px 0 #9A57A8, 0 3px #9A57A8, 3px 0 #9A57A8, 0 -3px #9A57A8
+	text-shadow:-3px 0 #4F182A, 0 3px #4F182A, 3px 0 #4F182A, 0 -3px #4F182A
 }
