@@ -15,9 +15,9 @@ xmlns:p="http://primefaces.org/ui"
 		<link href="/Bootstrap/css/custom.css" rel="stylesheet" />
 		<link rel="icon" type="image/gif" href="/Bootstrap/img/favicon.ico"/>
 	</h:head>
-	<h:body style="background-image: url('/Bootstrap/img/background.jpg');">
+	<h:body style="background-image: url('/Bootstrap/img/background.png');">
 		
-		<div class="container" style="max-width:900px;">
+		<div class="container" style="max-width:1200px;background-color:white;box-shadow: 0px 0px 8px 5px #ccc">
 			<div class="row" style="margin-top:20px;margin-bottom:50px;">
 			
 				<div class="col-md-2 text-center">
@@ -32,11 +32,12 @@ xmlns:p="http://primefaces.org/ui"
 					<!-- TITULO -->
 					<div style="margin-top:20px;margin-bottom:50px;">
 						<div class="text-center">
-							<h1>
-								<span class="customFontTitle">
-									Convite<br/>Chá de Panela<br/> do Gilson e da Jéssica
-								</span>
-							</h1>
+							<div><img src="/Bootstrap/img/titulo.png" style="width:65%;" class="img-rounded"></img></div>
+<!-- 							<h1> -->
+<!-- 								<span class="customFontTitle"> -->
+<!-- 									Convite<br/>Chá de Panela<br/> Jéssica &amp; Gilson  -->
+<!-- 								</span> -->
+<!-- 							</h1> -->
 						</div>
 					</div>
 					<!-- VIDEO -->
@@ -45,18 +46,23 @@ xmlns:p="http://primefaces.org/ui"
 							 style="width:100%;padding-bottom:60% !important;">
 							<iframe width="560"
 									height="315"
-									src="https://www.youtube.com/embed/oOTj8YIYJLY"
+									src="https://www.youtube.com/embed/t7rwhjehWY4"
 									frameborder="0"
 									gesture="media"/>
 						</div>
 					</div>
 					<!-- LOCAL -->
-					<div style="margin-top:15px;">
+					<div  class="col-md-12" style="margin-top:15px;">
 						<div class="col-md-6">
-							<div style="margin-top:35%;">
+							<div style="margin-top:22%;">
 								<h1>
-									<span class="customFont">
+									<span class="customFontTitle">
 										Local: 
+									</span>
+									<br/>
+									<br/>
+									<span class="customFont" style="vertical-align: center;">
+									IPMF 113 Samabaia Sul
 									</span>
 								</h1>
 								
@@ -76,7 +82,7 @@ xmlns:p="http://primefaces.org/ui"
 						<div class="col-md-6">
 							<div>
 								<h1>
-									<span class="customFont">
+									<span class="customFontTitle">
 										Data: 
 									</span>
 								</h1>
@@ -94,22 +100,44 @@ xmlns:p="http://primefaces.org/ui"
 							</div>
 						</div>
 					</div>
-					<!-- SUGESTÕES -->
-					<div style="margin-top:20px !important">
-						<div class="col-md-12">
+					<div class="col-md-12" style="margin-top:20px !important">
+						<div class="col-md-6" style="padding-left:0px !important;">
+							<div>
+								<h1>
+									<span class="customFontTitle">
+										Hora: 
+									</span>
+								</h1>
+								
+							</div>
+						</div>
+						<div class="col-md-6">
 							<div>
 								<h1>
 									<span class="customFont">
-										Sugestoes de Presente: 
+										16:30
 									</span>
 								</h1>
 								
 							</div>
 						</div>
 					</div>
+					<!-- SUGESTÕES -->
 					<div style="margin-top:20px !important">
-					<ul>
-						<li><span class="customFont">Acuçareiro</span></li>
+						<div class="col-md-12">
+							<div>
+								<h1>
+									<span class="customFontTitle">
+										Sugestões de Presente: 
+									</span>
+								</h1>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12" >
+					<ul style="list-style-type: none;">
+							<li><span class="customFont">Acuçareiro</span></li>
 							<li><span class="customFont">Abridor de latas</span></li>
 							<li><span class="customFont">Avental</span></li>
 							<li><span class="customFont">Assadeira anti-aderentes</span></li>
@@ -193,6 +221,9 @@ xmlns:p="http://primefaces.org/ui"
 					<img src="/Bootstrap/img/img10.jpg" style="margin-bottom:15px;" height="150" width="100"/>
 					<img src="/Bootstrap/img/img11.jpg" style="margin-bottom:15px;" height="150" width="100"/>
 				</div>
+				</div>
+				<div class="col-md-12 text-center">
+					<img src="/Bootstrap/img/aliancas.png" height="128" width="200" style="margin-bottom:10px;"/>
 				</div>
 			
 			<script src="/Bootstrap/js/jquery-3.2.1.min.js"/>

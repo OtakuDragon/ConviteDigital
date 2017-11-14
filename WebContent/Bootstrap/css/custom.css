@@ -1,22 +1,26 @@
 @font-face {
   font-family: 'TitleFont';
-  src: url('/Bootstrap/fonts/TheBlacklist.woff2') format('woff2'),
-       url('/Bootstrap/fonts/TheBlacklist.woff') format('woff'),
-       url('/Bootstrap/fonts/TheBlacklist.ttf') format('truetype');
+  src: url('/Bootstrap/fonts/AlexBrush-Regular.woff2') format('woff2'),
+       url('/Bootstrap/fonts/AlexBrush-Regular.woff') format('woff'),
+       url('/Bootstrap/fonts/AlexBrush-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'BodyFont';
+  src: url('/Bootstrap/fonts/Blokletters-Balpen.woff2') format('woff2'),
+       url('/Bootstrap/fonts/Blokletters-Balpen.woff') format('woff'),
+       url('/Bootstrap/fontsBlokletters-Balpen.ttf') format('truetype');
 }
 
 .customFont{
-	font-family:TitleFont;
+	font-family:BodyFont;
 	font-weight:bolder;
-	color:#BA3962;
-	font-size:40px;
-	text-shadow:-3px 0 #4F182A, 0 3px #4F182A, 3px 0 #4F182A, 0 -3px #4F182A
+	color:#000000;
+	font-size:35px;
 }
 
 .customFontTitle{
 	font-family:TitleFont;
 	font-weight:bolder;
-	color:#BA3962;
+	color:#F08EA0;
 	font-size:50px;
-	text-shadow:-3px 0 #4F182A, 0 3px #4F182A, 3px 0 #4F182A, 0 -3px #4F182A
 }
